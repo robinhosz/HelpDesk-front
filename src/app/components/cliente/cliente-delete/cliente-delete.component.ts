@@ -12,6 +12,7 @@ import { ClienteService } from 'src/app/services/cliente.service';
 })
 export class ClienteDeleteComponent implements OnInit {
 
+  //fix
   cliente: Cliente = {
     id:         '',
     nome:       '',
